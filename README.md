@@ -1,2 +1,0 @@
-# Tanmay Saraiya
-FootNotes
