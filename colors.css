@@ -314,19 +314,19 @@ beolow is stuff that is device dependant
 @media (max-width:767px){
 /***********text formatting*****************/
 	.title{
-		font-size: 100%;
+		font-size: 120%;
 	}
 	.content{  /*for text content*/
-		font-size: 50%;
+		font-size: 70%;
 	}
 	.quo1{ /*for quotes*/
-		font-size:55%;
+		font-size:75%;
 	}
 	.imgdesc{
 		font-size: 70%;
 	}
 	.quo2{ /*for quotes*/
-		font-size:100%;
+		font-size:150%;
 	}
 	.uno{
 		padding:0% 3% 0% 3%;
