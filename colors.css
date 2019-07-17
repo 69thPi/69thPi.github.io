@@ -38,7 +38,7 @@ body{
 .pages{  /*the main page*/
 	margin:0px;
 	border:1px solid white;
-	height: 48.11vw;
+	height: 100vh;
 	background-size: cover;
 	overflow: hidden;
 	padding:0px;
@@ -54,7 +54,10 @@ body{
 #home img{
 	position:absolute;
 	bottom:1.2%;
+	min-width:60%;
 	width:99.85%;
+	min-height: 70%;
+	max-height: 100%
 }
 
 .NavBar{
