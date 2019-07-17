@@ -58,19 +58,31 @@ body{
 }
 
 /*text formatting*/
-.title{
+.title{ /*text titles*/
 	font-family: 'Averia Sans Libre', cursive;
 	font-size: 200%;
 	text-align:center;
 	margin: 0px;
 	padding:0px;
 }
-.quotes{ /*for quotes*/
+.quo1{ /*for intro quote*/
 	font-family: 'Berkshire Swash', cursive;
 	font-size:120%;
 	line-height:1.5;
 	padding-left: 7px;
 	letter-spacing:1px;
+}
+
+.imgdesc{ /* for goal quote*/
+	font-family:'Kalam', cursive;
+	font-size:109%;
+}
+
+.quo2{
+	margin:0px;
+	padding:0px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size:275%;
 }
 
 .content{  /*for text content*/
@@ -81,9 +93,6 @@ body{
 	padding:5px;
 }
 
-.intro{
-	font-size: 110%;
-}
 
 .slide{
 			position:absolute;
@@ -260,7 +269,13 @@ beolow is stuff that is device dependant
 	.title{
 		font-size: 80%;
 	}
-	.quotes{ /*for quotes*/
+	.quo1{ /*for quotes*/
+		font-size:85%;
+	}
+	.imgdesc{
+		font-size: 109%;
+	}
+	.quo2{ /*for quotes*/
 		font-size:85%;
 	}
 
