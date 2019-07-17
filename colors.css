@@ -263,34 +263,8 @@ beolow is stuff that is device dependant
 
 
 /*****************************************************/
-@media (min-width:1821px){
-/***********text formatting*****************/
-	.title{
-		font-size: 350%;
-	}
-	.content{  /*for text content*/
-		font-size: 150%;
-	}
-	.quo1{ /*for quotes*/
-		font-size:165%;
-	}
-	.imgdesc{
-		font-size: 120%;
-	}
-	.quo2{ /*for quotes*/
-		font-size:400%;
-	}
-	.uno{
-		padding:0% 20% 0% 20%;
-	}
-	.dos{
-		padding:0% 10% 0% 10%;
-	}
-	.nav{
-		font-size:200%;
-	}
-}
-@media (min-width:1025px) and (max-width:1820px){
+
+@media (min-width:1025px){
 /***********text formatting*****************/
 	.title{
 		font-size: 200%;
