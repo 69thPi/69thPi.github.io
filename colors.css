@@ -317,13 +317,13 @@ beolow is stuff that is device dependant
 		font-size: 120%;
 	}
 	.content{  /*for text content*/
-		font-size: 70%;
+		font-size: 60%;
 	}
 	.quo1{ /*for quotes*/
 		font-size:75%;
 	}
 	.imgdesc{
-		font-size: 70%;
+		font-size: 80%;
 	}
 	.quo2{ /*for quotes*/
 		font-size:150%;
