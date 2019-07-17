@@ -256,7 +256,7 @@ beolow is stuff that is device dependant
 
 
 /*****************************************************/
-@media (min-width:2015px){
+@media (min-width:1025px){
 /***********text formatting*****************/
 	.title{
 		font-size: 200%;
