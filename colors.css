@@ -76,9 +76,13 @@ body{
 .content{  /*for text content*/
 	word-wrap:break-word;
 	text-align: justify;
-	font-size: 110%;
+	font-size: 100%;
 	font-family: 'Roboto Slab', serif;
 	padding:5px;
+}
+
+.intro{
+	font-size: 110%;
 }
 
 .slide{
@@ -246,14 +250,18 @@ beolow is stuff that is device dependant
 
 @media (min-width:768px) and (max-width:1024px){
 	.content{  /*for text content*/
-		font-size: 10%;
+		font-size: 80%;
 		padding:5px;
 	}
+	.intro{
+		font-size: 75%; /*content box for intro smaller than content*/
+	}
+
 	.title{
-		font-size: 20%;
+		font-size: 80%;
 	}
 	.quotes{ /*for quotes*/
-		font-size:12%;
+		font-size:80%;
 	}
 
 
