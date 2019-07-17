@@ -33,6 +33,21 @@ body{
 	padding:0px;
 	opacity:0.8;
 }
+.slide{
+			position:absolute;
+			top:10%;
+			left:12%;
+			width:80%;
+			height:88%;
+			display: none;
+}
+
+/**************** setting the background images**************/
+#home{
+	background: url('res/back_alien.jpg') no-repeat;
+	background-size:100%;
+	border:1px solid black;
+}
 
 #introduction{
 	background-image:url('res/blue.jpg');
@@ -56,52 +71,9 @@ body{
 	background-image:url('res/Neo.jpg');
 	opacity:1;
 }
+/*************************************************************/
 
-/*text formatting*/
-.title{ /*text titles*/
-	font-family: 'Averia Sans Libre', cursive;
-	font-size: 200%;
-	text-align:center;
-	margin: 0px;
-	padding:0px;
-}
-.quo1{ /*for intro quote*/
-	font-family: 'Berkshire Swash', cursive;
-	font-size:120%;
-	line-height:1.5;
-	padding-left: 7px;
-	letter-spacing:1px;
-}
-
-.imgdesc{ /* for goal quote*/
-	font-family:'Kalam', cursive;
-	font-size:109%;
-}
-
-.quo2{
-	margin:0px;
-	padding:0px;
-	font-family: 'Fredericka the Great', cursive;
-	font-size:275%;
-}
-
-.content{  /*for text content*/
-	word-wrap:break-word;
-	text-align: justify;
-	font-size: 100%;
-	font-family: 'Roboto Slab', serif;
-	padding:5px;
-}
-
-
-.slide{
-			position:absolute;
-			top:10%;
-			left:12%;
-			width:80%;
-			height:88%;
-			display: none;
-}
+/********* dynamic interface ************/
 
 .prev, .next {
   cursor: pointer;
@@ -142,7 +114,8 @@ body{
 .active, .dot:hover {
   background-color: #000;
 }
-
+/*****************************************************/
+/************** handling sizing events**************/
 [class*="col-"] {
   float: left;
 	padding: 10px;
@@ -170,7 +143,8 @@ img.auth{
 	float:bottom-right;
 	width:30%
 }
-
+/*******************************************/
+/* **************decorations**************/
 .whiteBox{
 	position:absolute;
 	top:17.5%;
@@ -179,12 +153,6 @@ img.auth{
 	background-color:rgba(255,255,255,0.8);
 	width:35%;
 	height:70%;
-}
-
-#home{
-	background: url('res/back_alien.jpg') no-repeat;
-	background-size:100%;
-	border:1px solid black;
 }
 
 #home img{
@@ -196,7 +164,7 @@ img.auth{
 	max-height: 100%
 }
 
-.NavBar{
+.NavBar{  /*the hyperlink container  */
 		background-color:rgba(0, 0, 0,0.2);
 		text-align:center;
 		padding:2% 0% 2.1% 0%;
@@ -206,7 +174,7 @@ img.auth{
 		border-radius: 0px 0px 50px 50px;
 }
 
-.nav{
+.nav{     /*the hyperlinks */
 	background-color:rgb(50,80,100);
 	padding:1.1vw 3vw;
 	text-align:center;
@@ -218,7 +186,7 @@ img.auth{
 	margin:0vw 1.5vw 0vw 1.5vw;
 }
 
-.up{
+.up{  /****the hyper link button***/
 	padding:1vw 2vw;
 	margin-right:4vw;
 	outline:none;
@@ -227,13 +195,49 @@ img.auth{
 	border:5px solid white;
 }
 
-.upTop{
+.upTop{  /* the hyper link container  */
 		position:sticky;
 	  top:90vh;
 		text-align: right;
 		z-index:2;
 		padding:0px;
 
+}
+
+/************ landscape text formatting*************/
+.title{ /*text titles*/
+	font-family: 'Averia Sans Libre', cursive;
+	font-size: 200%;
+	text-align:center;
+	margin: 0px;
+	padding:0px;
+}
+.quo1{ /*for intro quote*/
+	font-family: 'Berkshire Swash', cursive;
+	font-size:120%;
+	line-height:1.5;
+	padding-left: 7px;
+	letter-spacing:1px;
+}
+
+.imgdesc{ /* for image desc*/
+	font-family:'Kalam', cursive;
+	font-size:109%;
+}
+
+.quo2{  /*for goal quote*/
+	margin:0px;
+	padding:0px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size:275%;
+}
+
+.content{  /*for text content*/
+	word-wrap:break-word;
+	text-align: justify;
+	font-size: 100%;
+	font-family: 'Roboto Slab', serif;
+	padding:5px;
 }
 
 /*******************************************************
@@ -258,26 +262,21 @@ beolow is stuff that is device dependant
 /*****************************************************/
 
 @media (min-width:768px) and (max-width:1024px){
+/***********text formatting*****************/
+	.title{
+		font-size: 180%;
+	}
 	.content{  /*for text content*/
-		font-size: 80%;
+		font-size: 90%;
 		padding:5px;
 	}
-	.intro{
-		font-size: 75%; /*content box for intro smaller than content*/
-	}
-
-	.title{
-		font-size: 80%;
-	}
 	.quo1{ /*for quotes*/
-		font-size:85%;
+		font-size:95%;
 	}
 	.imgdesc{
 		font-size: 109%;
 	}
 	.quo2{ /*for quotes*/
-		font-size:85%;
+		font-size:200%;
 	}
-
-
 }
