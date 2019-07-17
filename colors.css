@@ -281,13 +281,13 @@ beolow is stuff that is device dependant
 		font-size:400%;
 	}
 	.uno{
-		padding:0% 14% 0% 14%;
+		padding:0% 20% 0% 20%;
 	}
 	.dos{
-		padding:0% 5% 0% 5%;
+		padding:0% 10% 0% 10%;
 	}
 	.nav{
-		font-size:120%;
+		font-size:200%;
 	}
 }
 @media (min-width:1025px) and (max-width:1280px){
