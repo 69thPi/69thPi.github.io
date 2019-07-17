@@ -220,7 +220,7 @@ img.auth{
 		text-align: right;
 		z-index:2;
 		padding:0px;
-		
+
 }
 
 /*******************************************************
@@ -246,14 +246,14 @@ beolow is stuff that is device dependant
 
 @media (min-width:768) and (max-width:1024){
 	.content{  /*for text content*/
-		font-size: 40%;
+		font-size: 10%;
 		padding:5px;
 	}
 	.title{
-		font-size: 200%;
+		font-size: 20%;
 	}
 	.quotes{ /*for quotes*/
-		font-size:120%;
+		font-size:12%;
 	}
 
 
