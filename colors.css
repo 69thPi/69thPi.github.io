@@ -270,7 +270,6 @@ beolow is stuff that is device dependant
 	}
 	.content{  /*for text content*/
 		font-size: 100%;
-		padding:5px;
 	}
 	.quo1{ /*for quotes*/
 		font-size:120%;
@@ -295,7 +294,6 @@ beolow is stuff that is device dependant
 	}
 	.content{  /*for text content*/
 		font-size: 85%;
-		padding:5px;
 	}
 	.quo1{ /*for quotes*/
 		font-size:95%;
