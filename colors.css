@@ -338,7 +338,7 @@ beolow is stuff that is device dependant
 		padding:0% 1% 0% 1%;
 	}
 }
-@media (max-width:767px){
+@media (max-width:767px)and (orientation:landscape){
 /***********text formatting*****************/
 	.title{
 		font-size: 120%;
