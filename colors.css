@@ -302,5 +302,6 @@ beolow is stuff that is device dependant
 	}
 	.dos{
 		padding:0% 0% 0% 0%;
+		border:2px solid red;
 	}
 }
