@@ -19,17 +19,6 @@ body{
   display: table;
 }
 
-[class*="col-"] {
-  float: left;
-	padding: 10px;
-}
-
-.col-7{width:7%;}
-.col-13{width:13%;}
-.col-31{width:31%;}
-.col-40{width:40%;}
-.col-60{width:60%;}
-
 .flex{
 	display: flex;
 	flex-wrap: nowrap;
@@ -43,85 +32,6 @@ body{
 	overflow: hidden;
 	padding:0px;
 	opacity:0.8;
-}
-
-#home{
-	background: url('res/back_alien.jpg') no-repeat;
-	background-size:100%;
-	border:1px solid black;
-}
-
-#home img{
-	position:absolute;
-	bottom:1.2%;
-	min-width:60%;
-	width:99.85%;
-	min-height: 70%;
-	max-height: 100%
-}
-
-.NavBar{
-		background-color:rgba(0, 0, 0,0.2);
-		text-align:center;
-		padding:2% 0% 2.1% 0%;
-		position:sticky;
-		top:0;
-		z-index: 4;
-		border-radius: 0px 0px 50px 50px;
-}
-
-.nav{
-	background-color:rgb(50,80,100);
-	padding:1.1vw 3vw;
-	text-align:center;
-	text-decoration:none;
-	color:white;
-	font-family: 'Kalam', cursive;
-	outline: 0.3vw dashed rgb(250, 95, 106);
-	outline-offset: -0.3vw;
-	margin:0vw 1.5vw 0vw 1.5vw;
-}
-
-.up{
-	padding:1vw 2vw;
-	margin-right:4vw;
-	outline:none;
-	background-color:DodgerBlue;
-	border-radius:7vw;
-	border:5px solid white;
-}
-.upTop{
-		position:sticky;
-	  top:90vh;
-		text-align: right;
-		z-index:2;
-		padding:0px;
-}
-.header{
-	height:18%;
-}
-
-img.auth{
-	width:70%;
-	height: auto;
-	border:10px solid white;
-	outline:5px solid black;
-}
-
-.img_cont{
-	text-align:center;
-	float:bottom-right;
-	width:30%
-}
-
-.whiteBox{
-	position:absolute;
-	top:17.5%;
-	left:12%;
-	border-radius:40px;
-	background-color:rgba(255,255,255,0.8);
-	width:35%;
-	height:70%;
 }
 
 #introduction{
@@ -218,4 +128,126 @@ img.auth{
 
 .active, .dot:hover {
   background-color: #000;
+}
+
+[class*="col-"] {
+  float: left;
+	padding: 10px;
+}
+
+.col-7{width:7%;}
+.col-13{width:13%;}
+.col-31{width:31%;}
+.col-40{width:40%;}
+.col-60{width:60%;}
+
+.header{
+	height:18%;
+}
+
+img.auth{
+	width:70%;
+	height: auto;
+	border:10px solid white;
+	outline:5px solid black;
+}
+
+.img_cont{
+	text-align:center;
+	float:bottom-right;
+	width:30%
+}
+
+.whiteBox{
+	position:absolute;
+	top:17.5%;
+	left:12%;
+	border-radius:40px;
+	background-color:rgba(255,255,255,0.8);
+	width:35%;
+	height:70%;
+}
+
+#home{
+	background: url('res/back_alien.jpg') no-repeat;
+	background-size:100%;
+	border:1px solid black;
+}
+
+#home img{
+	position:absolute;
+	bottom:1.2%;
+	min-width:60%;
+	width:99.85%;
+	min-height: 70%;
+	max-height: 100%
+}
+
+.NavBar{
+		background-color:rgba(0, 0, 0,0.2);
+		text-align:center;
+		padding:2% 0% 2.1% 0%;
+		position:sticky;
+		top:0;
+		z-index: 4;
+		border-radius: 0px 0px 50px 50px;
+}
+
+.nav{
+	background-color:rgb(50,80,100);
+	padding:1.1vw 3vw;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	font-family: 'Kalam', cursive;
+	outline: 0.3vw dashed rgb(250, 95, 106);
+	outline-offset: -0.3vw;
+	margin:0vw 1.5vw 0vw 1.5vw;
+}
+
+.up{
+	padding:1vw 2vw;
+	margin-right:4vw;
+	outline:none;
+	background-color:DodgerBlue;
+	border-radius:7vw;
+	border:5px solid white;
+}
+
+.upTop{
+		position:sticky;
+	  top:90vh;
+		text-align: right;
+		z-index:2;
+		padding:0px;
+}
+
+/*******************************************************
+
+
+
+
+
+above is evice independant
+
+
+beolow is stuff that is device dependant
+
+
+
+
+
+
+
+
+
+/*****************************************************/
+
+@media (min-width:768) and (max-width:1024){
+	.content{  /*for text content*/
+		font-size: 40%;
+		padding:5px;
+	}
+
+
 }
