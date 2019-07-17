@@ -207,14 +207,12 @@ img.auth{
 /************ landscape text formatting*************/
 .title{ /*text titles*/
 	font-family: 'Averia Sans Libre', cursive;
-	font-size: 200%;
 	text-align:center;
 	margin: 0px;
 	padding:0px;
 }
 .quo1{ /*for intro quote*/
 	font-family: 'Berkshire Swash', cursive;
-	font-size:120%;
 	line-height:1.5;
 	padding-left: 7px;
 	letter-spacing:1px;
@@ -222,20 +220,18 @@ img.auth{
 
 .imgdesc{ /* for image desc*/
 	font-family:'Kalam', cursive;
-	font-size:109%;
+
 }
 
 .quo2{  /*for goal quote*/
 	margin:0px;
 	padding:0px;
 	font-family: 'Fredericka the Great', cursive;
-	font-size:275%;
 }
 
 .content{  /*for text content*/
 	word-wrap:break-word;
 	text-align: justify;
-	font-size: 100%;
 	font-family: 'Roboto Slab', serif;
 	padding:5px;
 }
@@ -260,7 +256,25 @@ beolow is stuff that is device dependant
 
 
 /*****************************************************/
-
+@media (min-width:2015px){
+/***********text formatting*****************/
+	.title{
+		font-size: 200%;
+	}
+	.content{  /*for text content*/
+		font-size: 100%;
+		padding:5px;
+	}
+	.quo1{ /*for quotes*/
+		font-size:120%;
+	}
+	.imgdesc{
+		font-size: 109%;
+	}
+	.quo2{ /*for quotes*/
+		font-size:275%;
+	}
+}
 @media (min-width:768px) and (max-width:1024px){
 /***********text formatting*****************/
 	.title{
