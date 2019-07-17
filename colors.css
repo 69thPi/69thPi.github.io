@@ -311,3 +311,27 @@ beolow is stuff that is device dependant
 		padding:0% 1% 0% 1%;
 	}
 }
+@media (min-width:481px) and (max-width:467px){
+/***********text formatting*****************/
+	.title{
+		font-size: 150%;
+	}
+	.content{  /*for text content*/
+		font-size: 70%;
+	}
+	.quo1{ /*for quotes*/
+		font-size:75%;
+	}
+	.imgdesc{
+		font-size: 95%;
+	}
+	.quo2{ /*for quotes*/
+		font-size:180%;
+	}
+	.uno{
+		padding:0% 3% 0% 3%;
+	}
+	.dos{
+		padding:0% 1% 0% 1%;
+	}
+}
