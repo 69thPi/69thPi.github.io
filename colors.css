@@ -236,6 +236,10 @@ img.auth{
 	padding:5px;
 }
 
+.dos{
+	text-align:center;
+}
+
 /*******************************************************
 
 
@@ -274,6 +278,9 @@ beolow is stuff that is device dependant
 	.quo2{ /*for quotes*/
 		font-size:275%;
 	}
+	.dos{
+		padding:0% 14% 0% 14%;
+	}
 }
 @media (min-width:768px) and (max-width:1024px){
 /***********text formatting*****************/
@@ -292,5 +299,8 @@ beolow is stuff that is device dependant
 	}
 	.quo2{ /*for quotes*/
 		font-size:200%;
+	}
+	.dos{
+		padding:0% 14% 0% 14%;
 	}
 }
