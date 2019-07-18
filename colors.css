@@ -42,7 +42,7 @@ body{
 			display: none;
 }
 
-/**************** setting the background images**************/
+/**************** setting the pages **************/
 #home{
 	background: url('res/back_alien.jpg') no-repeat;
 	background-size:100%;
@@ -72,7 +72,7 @@ body{
 	opacity:1;
 }
 /*************************************************************/
-
+/*          for JS           */
 /********* dynamic interface ************/
 
 .prev, .next {
@@ -247,24 +247,16 @@ img.auth{
 
 
 
-
-
 above is evice independant
-
 
 beolow is stuff that is device dependant
 
 
 
-
-
-
-
-
-
 /*****************************************************/
+/* for higher definition displays use query here */
 
-@media (min-width:1025px){
+@media (min-width:1025px){ /*for laptops & desktops*/
 /***********text formatting*****************/
 	.title{
 		font-size: 200%;
@@ -288,7 +280,7 @@ beolow is stuff that is device dependant
 		padding:0% 5% 0% 5%;
 	}
 }
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){ /*for tablet screens and LCD screens non HD */
 /***********text formatting*****************/
 	.title{
 		font-size: 180%;
@@ -312,7 +304,7 @@ beolow is stuff that is device dependant
 		padding:0% 1% 0% 1%;
 	}
 }
-@media (max-width:767px)and (orientation:landscape){
+@media (max-width:767px)and (orientation:landscape){ /*for mobile phones */
 /***********text formatting*****************/
 	.title{
 		font-size: 120%;
