@@ -199,10 +199,10 @@ img.auth{
 		position:sticky;
 	  top:90vh;
 		text-align: right;
-		z-index:2;
 		padding:0px;
-
+		z-index: 3;
 }
+
 
 /************ landscape text formatting*************/
 .title{ /*text titles*/
