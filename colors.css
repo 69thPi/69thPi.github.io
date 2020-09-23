@@ -132,10 +132,11 @@ body{
 }
 
 img.auth{
-	width:70%;
-	height: auto;
+	width:80%;
+	transform: rotate(270deg);
 	border:10px solid white;
 	outline:5px solid black;
+	margin:50px 0px 30px 0px;
 }
 
 .img_cont{
@@ -243,11 +244,19 @@ img.auth{
 	text-align:center;
 }
 
+.orient{
+	position:fixed;
+	width:100%;
+	padding-top: 50%;
+	z-index: 5;
+	visibility: hidden;
+}
+
 /*******************************************************
 
 
 
-above is evice independant
+above is device independant
 
 beolow is stuff that is device dependant
 
@@ -278,6 +287,11 @@ beolow is stuff that is device dependant
 	}
 	.dos{
 		padding:0% 5% 0% 5%;
+	}
+}
+@media all and (orientation:portrait){
+	.orient{
+		visibility:visible;
 	}
 }
 @media (min-width:768px) and (max-width:1024px) and (orientation:landscape){ /*for tablet screens and LCD screens non HD */
